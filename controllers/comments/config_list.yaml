@@ -1,0 +1,47 @@
+# ===================================
+#  List Behavior Config
+# ===================================
+
+# Model List Column configuration
+list: $/jeroenvanrensen/comments/models/comment/columns.yaml
+
+# Model Class name
+modelClass: JeroenvanRensen\Comments\Models\Comment
+
+# List Title
+title: Manage Comments
+
+# Link URL for each record
+recordUrl: jeroenvanrensen/comments/comments/update/:id
+
+# Message to display if the list is empty
+noRecordsMessage: 'No comments found.'
+
+# Records to display per page
+recordsPerPage: 20
+
+# Display page numbers with pagination, disable to improve performance
+showPageNumbers: true
+
+# Displays the list column set up button
+showSetup: true
+
+# Displays the sorting link on each column
+showSorting: true
+
+# Default sorting column
+defaultSort:
+    column: approved
+    direction: desc
+
+# Display checkboxes next to each record
+showCheckboxes: true
+
+# Toolbar widget configuration
+toolbar:
+    # Partial for toolbar buttons
+    buttons: list_toolbar
+
+    # Search widget configuration
+    search:
+        prompt: backend::lang.list.search_prompt

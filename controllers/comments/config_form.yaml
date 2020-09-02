@@ -1,0 +1,21 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Comment
+
+# Model Form Field configuration
+form: $/jeroenvanrensen/comments/models/comment/fields.yaml
+
+# Model Class name
+modelClass: JeroenvanRensen\Comments\Models\Comment
+
+# Default redirect location
+defaultRedirect: jeroenvanrensen/comments/comments
+
+# Update page
+update:
+    title: Edit Comment
+    redirect: jeroenvanrensen/comments/comments
+    redirectClose: jeroenvanrensen/comments/comments

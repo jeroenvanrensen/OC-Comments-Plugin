@@ -1,0 +1,27 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    post_title:
+        label: Post
+        relation: post
+        select: title
+    user_name:
+        label: Username
+        type: text
+        searchable: true
+    user_email:
+        label: Email
+        type: text
+        searchable: true
+        invisible: true
+    body:
+        label: Body
+        type: text
+        searchable: true
+        invisible: true
+    approved:
+        label: Approved
+        type: partial
+        path: ~/plugins/jeroenvanrensen/comments/models/comment/_approved_column.htm

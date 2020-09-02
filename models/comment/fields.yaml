@@ -1,0 +1,22 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    user_name:
+        label: Username
+        span: left
+        type: text
+    user_email:
+        label: Email
+        span: right
+        type: email
+    body:
+        label: Comment
+        span: left
+        type: textarea
+        size: small
+    approved:
+        label: Approved
+        span: right
+        type: dropdown
