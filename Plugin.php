@@ -9,7 +9,7 @@ use System\Classes\PluginBase;
 class Plugin extends PluginBase
 {
     /**
-     * This plugin requires JeroenvanRensen.Blog to work properly
+     * This plugin requires JeroenvanRensen.Blog to work properly.
      *
      * @var array
      */
@@ -39,7 +39,7 @@ class Plugin extends PluginBase
      */
     public function boot()
     {
-        Event::listen('backend.menu.extendItems', function($manager) {
+        Event::listen('backend.menu.extendItems', function ($manager) {
             $manager->addSideMenuItems('JeroenvanRensen.Blog', 'blog', [
                 'comments' => [
                     'label' => 'Comments',

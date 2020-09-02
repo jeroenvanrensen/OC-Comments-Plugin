@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 namespace JeroenvanRensen\Comments\Components;
 
@@ -101,7 +101,7 @@ class CommentsForm extends ComponentBase
     /**
      * Returns the ID of the current post.
      *
-     * @return  integer
+     * @return  int
      */
     protected function getPostId()
     {
@@ -112,9 +112,9 @@ class CommentsForm extends ComponentBase
     }
 
     /**
-     * Returns if a new comments should be approved by default or not
+     * Returns if a new comments should be approved by default or not.
      *
-     * @return  integer
+     * @return  int
      */
     protected function approved()
     {

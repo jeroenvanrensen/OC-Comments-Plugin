@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 namespace JeroenvanRensen\Comments\Models;
 
@@ -11,21 +11,21 @@ class Comment extends Model
 
     /**
      * The database table used by the model.
-     * 
+     *
      * @var string
      */
     public $table = 'jeroenvanrensen_comments_comments';
 
     /**
-     * Guarded fields
-     * 
+     * Guarded fields.
+     *
      * @var array
      */
     protected $guarded = [];
 
     /**
      * Validation rules for attributes.
-     * 
+     *
      * @var array
      */
     public $rules = [
@@ -35,7 +35,7 @@ class Comment extends Model
     ];
 
     /**
-     * Casts the approved column to a boolean
+     * Casts the approved column to a boolean.
      *
      * @var array
      */

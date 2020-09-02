@@ -1,8 +1,10 @@
-<?php namespace JeroenvanRensen\Comments\Updates;
+<?php
 
-use Schema;
+namespace JeroenvanRensen\Comments\Updates;
+
 use October\Rain\Database\Schema\Blueprint;
 use October\Rain\Database\Updates\Migration;
+use Schema;
 
 class CreateCommentsTable extends Migration
 {
