@@ -1,5 +1,7 @@
 # OctoberCMS Comments Plugin
 
+[![StyleCI](https://github.styleci.io/repos/292317331/shield?branch=master)](https://github.styleci.io/repos/292317331?branch=master)
+
 An easy way to provide a comments section for your blog.
 
 # Contents
