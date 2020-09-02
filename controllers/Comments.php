@@ -1,15 +1,17 @@
-<?php namespace 
+<?php
+
+namespace
 
 JeroenvanRensen\Comments\Controllers;
 
-use BackendMenu;
 use Backend\Classes\Controller;
+use BackendMenu;
 
 class Comments extends Controller
 {
     /**
      * Behaviors that are implemented by this controller.
-     * 
+     *
      * @var array
      */
     public $implement = [
@@ -19,14 +21,14 @@ class Comments extends Controller
 
     /**
      * Configuration file for the `FormController` behavior.
-     * 
+     *
      * @var string
      */
     public $formConfig = 'config_form.yaml';
 
     /**
      * Configuration file for the `ListController` behavior.
-     * 
+     *
      * @var string
      */
     public $listConfig = 'config_list.yaml';
@@ -41,7 +43,7 @@ class Comments extends Controller
     ];
 
     /**
-     * Set the backend menu
+     * Set the backend menu.
      *
      * @return  null
      */
